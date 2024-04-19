@@ -11,7 +11,7 @@ import streamlit as st
 # Change the title color using HTML formatting with hexadecimal color code
 st.markdown("<h1 style='color: #611349;'>Vectara's Advanced Search</h1>", unsafe_allow_html=True)
 # Define the search term input field
-search_term = st.text_input("Enter a search term:", placeholder="Enter your search term here")
+search_term = st.text_input("Enter a search term:")
 
 if search_term:
     url = "https://api.vectara.io:443/v1/query"
