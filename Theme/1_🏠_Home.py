@@ -35,7 +35,7 @@ def set_bg_with_zoom_out(main_bg):
      )
 
 # Path to the background image
-bg_path = r'bgg.png'
+bg_path = r'Bg.jpg'
 gif_url = "https://media2.giphy.com/media/kLano1oGCDDmlwttPh/giphy-downsized.gif"  # Replace with the URL of your GIF
 
 # Place the GIF in a container with custom CSS for positioning
